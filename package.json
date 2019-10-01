@@ -1,0 +1,23 @@
+{
+  "name": "@mikemcbride/uniq",
+  "version": "1.0.0",
+  "description": "Very fast implementation to remove duplicates from an array",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemcbride/uniq.git"
+  },
+  "keywords": [
+    "array",
+    "uniq",
+    "unique",
+    "duplicates",
+    "javascript"
+  ],
+  "author": "mikemcbride",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikemcbride/uniq/issues"
+  },
+  "homepage": "https://github.com/mikemcbride/uniq#readme"
+}
