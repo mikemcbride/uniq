@@ -17,6 +17,16 @@ const arr = [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9]
 const withoutDuplicates = uniq(arr) // withoutDuplicates = [1,2,3,4,5,6,7,8,9]
 ```
 
+### Options
+
+You an optionally pass a second parameter to the function which is an object of options. Right now there is only one option: `includeDuplicates`. If you pass `true`, it will return a tuple with the unique array as the first item and an array of items that were marked as duplicates as the second item. Example:
+
+```js
+const arr = ['cat', 'dog', 'pig', 'cat', 'monkey', 'pig'] // cat and pig are duplicates
+const withoutDupes = uniq(arr, { includeDuplicates: true })
+// [ ['cat', 'dog', 'pig', 'monkey'], ['cat', 'pig'] ]
+```
+
 ## Notes
 
 This implementation uses ES6 `Array.from` and `Set`, which allows us to remove duplicates very efficiently. In a number of tests with an array filled with one million random numbers from 1-100, this implementation on average completed in about 40ms or less. Results:
