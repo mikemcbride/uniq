@@ -1,6 +1,6 @@
 {
   "name": "@mikemcbride/uniq",
-  "version": "1.1.1",
+  "version": "1.1.0",
   "description": "Very fast implementation to remove duplicates from an array",
   "main": "index.js",
   "scripts": {
